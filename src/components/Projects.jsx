@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Portfolio from "../assets/Portfolio.jpg"
+import Ecommerce from "../assets/Ecommerce.webp"
 
 const Projects = () => {
   return (
@@ -25,7 +27,7 @@ const Projects = () => {
         <div className="bg-dark-300 rounded-2xl p-6 w-81                  transition-transform duration-300 hover:-translate-y-2 cursor-pointer">
           <img
             className="h-55 w-full"
-            src="https://emma-watson-rouge.vercel.app/assets/project4-CCAqnitI.avif"
+            src={Portfolio}
             alt="profile"
           />
           <h3 className="text-2xl mt-7 mb-2 font-semibold">
@@ -152,7 +154,7 @@ const Projects = () => {
         <div className="bg-dark-300 rounded-2xl p-6 w-81                  transition-transform duration-300 hover:-translate-y-2 cursor-pointer">
           <img
             className="h-55 w-full"
-            src="https://emma-watson-rouge.vercel.app/assets/project1-CBJrjTHP.avif"
+            src={Ecommerce}
             alt="profile"
           />
           <h3 className="text-2xl mt-7 mb-2 font-semibold">
