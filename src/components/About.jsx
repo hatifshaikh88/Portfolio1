@@ -13,7 +13,7 @@ const About = () => {
       id="about"
       className="py-20 bg-dark-200"
     >
-      <div className="px-6 mx-0 container ">
+      <div className="px-6 mx-auto max-w-7xl container">
         {/* Heading */}
         <h1 className="text-4xl text-center font-bold mb-4">
           About

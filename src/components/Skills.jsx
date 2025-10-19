@@ -9,7 +9,7 @@ const Skills = () => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeInOut" }}
       viewport={{ once: true }}
-      id="skils"
+      id="skills"
       className="py-20 bg-dark-200"
     >
       {/* Heading */}
@@ -22,8 +22,8 @@ const Skills = () => {
       </p>
 
       {/* Cards */}
-      <div className="ml-30 mr-30 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div className="bg-dark-300 rounded-2xl p-6 w-81 h-70 transition-transform duration-300 hover:-translate-y-2 cursor-pointer">
+      <div className="px-6 mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="bg-dark-300 rounded-2xl p-6 transition-transform duration-300 hover:-translate-y-2 cursor-pointer">
           <h3 className="text-3xl font-semibold">Frontend Development</h3>
           <p className="text-gray-400 mt-3">
             Building responsive and interactive user interfaces with modern frameworks.
@@ -34,29 +34,29 @@ const Skills = () => {
           <button className="text-gray-300 mt-3 bg-dark-200 px-3 py-1 rounded-full cursor-pointer">JavaScript</button>
         </div>
 
-        <div className="bg-dark-300 w-81 rounded-2xl p-6 h-70 transition-transform duration-300 hover:-translate-y-2 cursor-pointer">
+        <div className="bg-dark-300 rounded-2xl p-6 transition-transform duration-300 hover:-translate-y-2 cursor-pointer">
           <h3 className="text-3xl font-semibold">Backend Development</h3>
           <p className="text-gray-400 mt-3">
             Creating robust server-side applications and RESTful APIs.
           </p>
           <button className="text-gray-300 mt-3 mr-2 bg-dark-200 px-3 py-1 rounded-full cursor-pointer">Node.js</button>
-          <button className="text-gray-300 mt-3 mr-2 bg-dark-200 px-3 py-1 rounded-full cursor-pointer">Express</button>
+          <button className="text-gray-300 mt-3 mr-2 bg-dark-200 px-3 py-1 rounded-full cursor-pointer">Express JS</button>
           <button className="text-gray-300 bg-dark-200 px-3 py-1 rounded-full cursor-pointer">Laravel</button>
           <button className="text-gray-300 mt-3 bg-dark-200 px-3 py-1 rounded-full cursor-pointer">Django</button>
-          
+
         </div>
 
-        <div className="bg-dark-300 rounded-2xl p-6  w-81 h-70 transition-transform duration-300 hover:-translate-y-2 cursor-pointer">
+        <div className="bg-dark-300 rounded-2xl p-6 transition-transform duration-300 hover:-translate-y-2 cursor-pointer">
           <h3 className="text-3xl font-semibold">Database Management</h3>
           <p className="text-gray-400 mt-3">
             Designing and optimizing databases for performance and scalability.
           </p>
           <button className="text-gray-300 mt-3 mr-2 bg-dark-200 px-3 py-1 rounded-full cursor-pointer">PostgreSQL</button>
-          <button className="text-gray-300 mt-3 bg-dark-200 px-3 py-1 rounded-full cursor-pointer">MongoDB</button>
-          <button className="text-gray-300 mt-3 bg-dark-200 px-3 py-1 rounded-full cursor-pointer">MySQL</button>
+          <button className="text-gray-300 mt-3 mr-2 bg-dark-200 px-3 py-1 rounded-full cursor-pointer">MongoDB</button>
+          <button className="text-gray-300 mt-3 mr-2 bg-dark-200 px-3 py-1 rounded-full cursor-pointer">MySQL</button>
         </div>
-        
-        <div className="bg-dark-300 rounded-2xl p-6 w-81 h-70 transition-transform duration-300 hover:-translate-y-2 cursor-pointer">
+
+        <div className="bg-dark-300 rounded-2xl p-6 transition-transform duration-300 hover:-translate-y-2 cursor-pointer">
           <h3 className="text-3xl font-semibold">Mobile Development</h3>
           <p className="text-gray-400 mt-3">
             Building cross-platform mobile applications with modern tools.
@@ -67,7 +67,7 @@ const Skills = () => {
           <button className="text-gray-300 mt-3 bg-dark-200 px-3 py-1 rounded-full cursor-pointer">Icon</button>
         </div>
 
-        <div className="bg-dark-300 rounded-2xl p-6 w-81 h-70 transition-transform duration-300 hover:-translate-y-2 cursor-pointer">
+        <div className="bg-dark-300 rounded-2xl p-6 transition-transform duration-300 hover:-translate-y-2 cursor-pointer">
           <h3 className="text-3xl font-semibold">Cloud & Deveops</h3>
           <p className="text-gray-400 mt-3">
             Deploying and managing applications in cloud environments.
@@ -79,7 +79,7 @@ const Skills = () => {
           <button className="text-gray-300 mt-3 mr-2 bg-dark-200 px-3 py-1 rounded-full cursor-pointer">CI/CD</button>
         </div>
 
-        <div className="bg-dark-300 rounded-2xl p-6 w-81 h-70           transition-transform duration-300 hover:-translate-y-2 cursor-pointer">
+        <div className="bg-dark-300 rounded-2xl p-6 transition-transform duration-300 hover:-translate-y-2 cursor-pointer">
           <h3 className="text-3xl font-semibold">Tools & Technologies</h3>
           <p className="text-gray-400 mt-3">
             Essential tools and technologies I use in my development workflow.
@@ -87,7 +87,7 @@ const Skills = () => {
           <button className="text-gray-300 mt-3 mr-2 bg-dark-200 px-3 py-1 rounded-full cursor-pointer">Git & Github</button>
           <button className="text-gray-300 mt-3 mr-2 bg-dark-200 px-3 py-1 rounded-full cursor-pointer">Webpack</button>
           <button className="text-gray-300 mt-3 mr-2 bg-dark-200 px-3 py-1 rounded-full cursor-pointer">Jest</button>
-          <button className="text-gray-300 mt-3 bg-dark-200 px-3 py-1 rounded-full cursor-pointer">Figma</button>
+          <button className="text-gray-300 mt-3 mr-2 bg-dark-200 px-3 py-1 rounded-full cursor-pointer">Figma</button>
         </div>
       </div>
     </motion.div>
