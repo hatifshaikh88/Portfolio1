@@ -12,7 +12,7 @@ const ContactCard = () => {
           <MdEmail className="text-2xl text-purple-400" />
           <div>
             <h3 className="font-semibold text-lg">Email</h3>
-            <p className="text-gray-300 text-sm">hatifshaikh88732@gmail.com</p>
+            <p className="text-gray-300 text-sm cursor-pointer">hatifshaikh88732@gmail.com</p>
           </div>
         </div> 
 
@@ -21,7 +21,7 @@ const ContactCard = () => {
           <MdPhone className="text-2xl text-gray-400" />
           <div>
             <h3 className="font-semibold text-lg">Phone</h3>
-            <p className="text-gray-300 text-sm">+91 8809247620</p>
+            <p className="text-gray-300 text-sm cursor-pointer">+91 8809247620</p>
           </div>
         </div>
 
