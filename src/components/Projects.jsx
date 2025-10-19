@@ -70,7 +70,7 @@ const Projects = () => {
         <div className="bg-dark-300 rounded-2xl p-6 transition-transform duration-300 hover:-translate-y-2 cursor-pointer">
           <img
             className="h-55 w-full"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsV_p1zGAkjdGcBUuG03XbcfwZ7nAbR1DgkQ&s"
+            src="https://cdn.dribbble.com/userupload/8854127/file/original-31aa402dcc1052ea977fef773ed613fb.png?format=webp&resize=400x300&vertical=center"
             alt="profile"
           />
           <h3 className="text-2xl mt-7 mb-2 font-semibold">Chat App</h3>
