@@ -21,13 +21,13 @@ const Contacts = () => {
       </p>
 
       {/* Grid Layout */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
         {/* Contact Form */}
-        <div className="bg-dark-300 rounded-2xl w-full p-5 sm:p-6 transition-transform duration-300">
+        <div className="bg-dark-300 rounded-2xl mt-5 w-full p-5 sm:p-6 transition-transform duration-300">
           <h4 className="text-gray-400 text-xl sm:text-2xl">Your Name</h4>
           <input
             type="text"
-            className="w-full h-12 rounded border-none mt-3 bg-dark-200 outline-none font-bold focus:ring-0 focus:border-none px-3 text-sm sm:text-base"
+            className="w-full h-12 rounded-2xl border-none mt-3 bg-dark-200 outline-none font-bold focus:ring-0 focus:border-none px-3 text-sm sm:text-base"
           />
 
           <h4 className="text-xl sm:text-2xl text-gray-400 mt-6 sm:mt-7">
@@ -35,7 +35,7 @@ const Contacts = () => {
           </h4>
           <input
             type="email"
-            className="w-full h-12 rounded border-none mt-3 bg-dark-200 outline-none font-bold focus:ring-0 focus:border-none px-3 text-sm sm:text-base"
+            className="w-full h-12 rounded-2xl border-none mt-3 bg-dark-200 outline-none font-bold focus:ring-0 focus:border-none px-3 text-sm sm:text-base"
           />
 
           <h4 className="text-xl sm:text-2xl text-gray-400 mt-6 sm:mt-7">
@@ -44,22 +44,21 @@ const Contacts = () => {
           <textarea
             name="text"
             id="message"
-            className="w-full h-32 rounded border-none mt-3 bg-dark-200 outline-none focus:ring-0 focus:border-none px-3 py-2 text-sm sm:text-base resize-none"
+            className="w-full rounded-2xl border-none mt-3 bg-dark-200 outline-none focus:ring-0 focus:border-none px-3 py-2 text-sm sm:text-base resize-none"
           ></textarea>
 
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 mt-7 justify-center items-center">
-  <a
-    href="#"
-    className="w-full sm:w-auto flex items-center justify-center text-center px-4 py-2 bg-purple rounded-lg font-medium hover:bg-purple-700 duration-300 transition"
-  >
-    Send Message
-  </a>
-</div>
-
+            <a
+              href="#"
+              className="w-full sm:w-auto flex items-center justify-center text-center px-4 py-2 bg-purple rounded-lg font-medium hover:bg-purple-700 duration-300 transition"
+            >
+              Send Message
+            </a>
+          </div>
         </div>
 
         {/* Contact Info */}
-        <div className="bg-dark-200 rounded-2xl w-full p-5 sm:p-6 transition-transform duration-300">
+        <div className="bg-dark-200 rounded-2xl mt-0.1 w-full p-5 sm:p-6 transition-transform duration-300">
           <ContactCard />
         </div>
       </div>
