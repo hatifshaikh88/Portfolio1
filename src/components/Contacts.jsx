@@ -47,14 +47,15 @@ const Contacts = () => {
             className="w-full h-32 rounded border-none mt-3 bg-dark-200 outline-none focus:ring-0 focus:border-none px-3 py-2 text-sm sm:text-base resize-none"
           ></textarea>
 
-          <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 mt-7">
-            <a
-              href="#"
-              className="w-full sm:w-auto text-center px-4 py-2 bg-purple rounded-lg font-medium hover:bg-purple-700 duration-300 transition"
-            >
-              Send Message
-            </a>
-          </div>
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 mt-7 justify-center items-center">
+  <a
+    href="#"
+    className="w-full sm:w-auto flex items-center justify-center text-center px-4 py-2 bg-purple rounded-lg font-medium hover:bg-purple-700 duration-300 transition"
+  >
+    Send Message
+  </a>
+</div>
+
         </div>
 
         {/* Contact Info */}
